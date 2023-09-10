@@ -104,7 +104,7 @@
             this.panel2.Controls.Add(this.txtUsuario);
             this.panel2.Controls.Add(this.txtContra);
             this.panel2.Controls.Add(this.btnIngresar);
-            this.panel2.Location = new System.Drawing.Point(366, 80);
+            this.panel2.Location = new System.Drawing.Point(234, 76);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(351, 372);
             this.panel2.TabIndex = 2;
