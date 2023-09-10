@@ -41,15 +41,15 @@ namespace LoginModerno
             if (usuario == validaUsuario && contra == validaContra)
             {
                 MessageBox.Show("Inicio de sesión exitoso");
-                // Perform any actions needed after successful login
-                //Form1 form1 = new Form1();
-                //Form2 form2 = new Form2();
+                //Perform any actions needed after successful login
+               Form1 form1 = new Form1();
+                Form2 form2 = new Form2();
 
-                //// Hide Form1
-                //form1.Hide();
+                // Hide Form1
+                form1.Hide();
 
-                //// Show Form2
-                //form2.Show();
+                // Show Form2
+                form2.Show();
             }
             else
             {
